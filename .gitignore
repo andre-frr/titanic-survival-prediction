@@ -1,0 +1,39 @@
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Python bytecode and cache
+__pycache__/
+*.py[cod]
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Test/coverage caches
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Data files (Kaggle) - keep datasets out of git
+data/*.csv
+data/*.zip
+
+# Saved models
+models/*.pkl
+models/*.joblib
+models/*.h5
+
+# IDEs/editors
+.idea/
+.vscode/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
